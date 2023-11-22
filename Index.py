@@ -20,3 +20,9 @@ if b<18:
     print("\"Your age is below 18\"")
 else:
     print("\"Your age is above 18\"")
+
+# Using while loop
+i = 0 
+while i < 550:
+print(i, str("Yes")
+      i = i + 1
