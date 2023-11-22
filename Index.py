@@ -24,5 +24,5 @@ else:
 # Using while loop
 i = 0 
 while i < 550:
-print(i, str("Yes")
+      print(i, str("Yes"))
       i = i + 1
