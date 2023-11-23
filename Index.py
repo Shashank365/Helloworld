@@ -26,3 +26,10 @@ i = 0
 while i < 550:
       print(i, str("Yes"))
       i = i + 1
+
+# Checking whether the numbers entered by the user 'even' or 'odd'
+a = int(input("Enter the number: "))
+if a % 2 == 0:
+     print("The number you have entered is 'Even' ")
+else:
+     print("The number you have entered is 'Odd' ")
