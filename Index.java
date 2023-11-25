@@ -4,7 +4,7 @@ class HelloWorld{
     }
 }
 
-class AddingTwoNumbers {
+class AddingTwoIntegers {
     public static void main(String[] args) {
         System.out.println("Adding two Integers");
         int a = 23;
