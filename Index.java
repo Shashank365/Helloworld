@@ -18,8 +18,7 @@ class AddingTwoIntegers {
     }
 }
 
-// Taking input from the user:
-
+// Taking input from the user:-
 class InputUser {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
@@ -28,5 +27,19 @@ class InputUser {
         // System.out.print(str);
         System.out.print("Good Morning, " + str);
         sc.close();
+    }
+}
+
+// Adding two numbers given by the user:-
+class UserAddingIntergers {
+    public static void main(String[] args) {
+        Scanner js = new Scanner (System.in);
+        System.out.println("Enter the first number: ");
+        int a = js.nextInt();
+        System.out.println("Enter the second number: ");
+        int b = js.nextInt();
+        int c = a + b;
+        System.out.print("The sum of the two number you have entered is: " + c);
+        js.close();
     }
 }
